@@ -1,7 +1,7 @@
 import "./App.css";
-import Dictionary from "./Dictionary.js";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -9,10 +9,8 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>Coded by Katie Hensley</footer>
+        <footer className="App-footer">Coded by Katie Hensley</footer>
       </div>
     </div>
   );
 }
-
-export default App;
