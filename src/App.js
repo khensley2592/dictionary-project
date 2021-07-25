@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         <header className="App-header">dic·tion·ar·y</header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="wanderlust" />
         </main>
         <footer className="App-footer">
           <a
