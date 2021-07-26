@@ -13,7 +13,7 @@ export default function App() {
           </em>
         </span>
         <main>
-          <Dictionary defaultKeyword="diligent" />
+          <Dictionary defaultKeyword="wander" />
         </main>
         <footer className="App-footer">
           <a
