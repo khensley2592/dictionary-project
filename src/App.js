@@ -6,8 +6,14 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">dic·tion·ar·y</header>
+        <span className="subtitle">
+          <em>
+            "By words we learn thoughts, and by thoughts we learn life" -Jean
+            Baptiste Girard, French-Swiss Educator
+          </em>
+        </span>
         <main>
-          <Dictionary defaultKeyword="wanderlust" />
+          <Dictionary defaultKeyword="diligent" />
         </main>
         <footer className="App-footer">
           <a
